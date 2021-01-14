@@ -16,11 +16,6 @@
     "Content": {
       "type": "richtext"
     },
-    "comments": {
-      "plugin": "comments",
-      "collection": "comment",
-      "via": "related"
-    },
     "navigation": {
       "model": "navigationitem",
       "plugin": "navigation",
