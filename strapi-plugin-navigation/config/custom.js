@@ -1,5 +1,12 @@
 module.exports = {
     plugins: {
-        navigation: { },
+        navigation: {
+            additionalFields: ['audience'],
+            excludedContentTypes: ["plugins::", "strapi"],
+            allowedLevels: 2,
+            contentTypesNameFields: {
+              'blog_posts': ['Title'],
+            },
+        },
     },
 };
