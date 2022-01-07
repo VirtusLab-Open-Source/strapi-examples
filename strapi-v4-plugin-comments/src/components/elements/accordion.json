@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_accordions",
+  "info": {
+    "displayName": "Accordion",
+    "icon": "pencil-ruler"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Item": {
+      "displayName": "Accordion item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.accordion-item"
+    }
+  }
+}

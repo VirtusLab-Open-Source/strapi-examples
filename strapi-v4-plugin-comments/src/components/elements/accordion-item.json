@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_accordion_items",
+  "info": {
+    "displayName": "Accordion item",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

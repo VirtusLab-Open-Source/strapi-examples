@@ -1,8 +1,8 @@
 {
-  "name": "strapi-examples-comments",
+  "name": "strapi-v4-examples-comments",
   "private": true,
   "version": "0.1.0",
-  "description": "Strapi examples - Plugin: Comments",
+  "description": "Strapi (v4) examples - Plugin: Comments",
   "scripts": {
     "develop": "strapi develop --watch-admin",
     "start": "strapi start",
@@ -11,18 +11,11 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.6.1",
-    "strapi-admin": "3.6.1",
-    "strapi-utils": "3.6.1",
-    "strapi-plugin-content-type-builder": "3.6.1",
-    "strapi-plugin-content-manager": "3.6.1",
-    "strapi-plugin-users-permissions": "3.6.1",
-    "strapi-plugin-email": "3.6.1",
-    "strapi-plugin-upload": "3.6.1",
-    "strapi-plugin-comments": "^1.0.1",
-    "strapi-connector-bookshelf": "3.6.1",
-    "knex": "<0.20.0",
-    "sqlite3": "latest"
+    "@strapi/strapi": "^4.0.3",
+    "@strapi/plugin-users-permissions": "^4.0.3",
+    "@strapi/plugin-i18n": "^4.0.3",
+    "strapi-plugin-comments": "^2.0.0-beta.3",
+    "sqlite3": "^5.0.2"
   },
   "author": {
     "name": "VirtusLab // Mateusz Ziarko",
@@ -37,10 +30,10 @@
     }
   ],
   "strapi": {
-    "uuid": "92d33c58-658c-46dc-ba4d-ac19bb9f97cc"
+    "uuid": "a6595005-482b-4791-91c9-27af3e5e923b"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
