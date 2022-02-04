@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "blog_posts",
   "info": {
-    "singularName": "page",
-    "pluralName": "pages",
-    "displayName": "Page",
-    "description": ""
+    "singularName": "blog-post",
+    "pluralName": "blog-posts",
+    "displayName": "Blog post"
   },
   "options": {
     "draftAndPublish": true
@@ -16,22 +15,21 @@
     }
   },
   "attributes": {
-    "Title": {
+    "subject": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "Content": {
+    "alternative_subject": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "string"
     }
   }
 }

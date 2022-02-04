@@ -12,12 +12,14 @@ module.exports = {
       },
     },
   },
-  'comments': {
+  'navigation': {
       enabled: true,
       config: {
-        approvalFlow: ['api::blog-post.blog-post'],
-        entryLabel: {
-          'api::blog-post.blog-post': ['alternative_subject'],
+        additionalFields: ['audience'],
+        allowedLevels: 2,
+        contentTypes: ['api::page.page'],
+        contentTypesNameFields: {
+          'api::page.page': ['Title'],
         },
       },
     },

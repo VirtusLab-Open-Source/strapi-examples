@@ -1,8 +1,8 @@
 {
-  "name": "strapi-v4-examples-comments",
+  "name": "strapi-v4-examples-navigation",
   "private": true,
   "version": "0.1.0",
-  "description": "Strapi (v4) examples - Plugin: Comments",
+  "description": "Strapi (v4) examples - Plugin: Navigation",
   "scripts": {
     "develop": "strapi develop --watch-admin",
     "start": "strapi start",
@@ -15,7 +15,7 @@
     "@strapi/plugin-i18n": "^4.0.7",
     "@strapi/plugin-users-permissions": "^4.0.7",
     "@strapi/strapi": "^4.0.7",
-    "strapi-plugin-comments": "^2.0.0",
+    "strapi-plugin-navigation": "^2.0.0",
     "sqlite3": "^5.0.2"
   },
   "author": {
