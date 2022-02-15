@@ -15,7 +15,7 @@
     "@strapi/plugin-i18n": "^4.0.7",
     "@strapi/plugin-users-permissions": "^4.0.7",
     "@strapi/strapi": "^4.0.7",
-    "strapi-plugin-comments": "^2.0.0",
+    "strapi-plugin-comments": "^2.0.4",
     "sqlite3": "^5.0.2"
   },
   "author": {

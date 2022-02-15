@@ -14,11 +14,5 @@ module.exports = {
   },
   'comments': {
       enabled: true,
-      config: {
-        approvalFlow: ['api::blog-post.blog-post'],
-        entryLabel: {
-          'api::blog-post.blog-post': ['alternative_subject'],
-        },
-      },
     },
 };
