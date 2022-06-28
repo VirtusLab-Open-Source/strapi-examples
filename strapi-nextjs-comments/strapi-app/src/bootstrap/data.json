@@ -1,0 +1,75 @@
+{
+  "posts": [
+    {
+      "Title": "First Post",
+      "Slug": "first-post",
+      "Description": "Example post content type with basic fields...",
+      "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed blandit sem. Proin quis leo elementum, volutpat arcu in, suscipit dolor. Quisque in nibh justo. Nulla facilisi. Mauris vitae nisi luctus, blandit libero in, pellentesque sapien. Integer nec tempor mi. In aliquet imperdiet ornare. In dolor ex, facilisis fermentum ex ac, consequat laoreet ligula. Nullam mattis augue ac tellus dapibus ornare. Donec vestibulum, urna vitae efficitur finibus, quam metus vestibulum libero, eu accumsan nisi leo eget est. Fusce vitae metus vitae tortor mattis laoreet. Sed ut urna ante. Etiam tellus neque, laoreet eu orci nec, tincidunt blandit turpis. Duis ut nisl non turpis aliquet lacinia. Vestibulum metus mi, pellentesque vitae fringilla et, egestas eget elit. Fusce nec mattis quam, at semper justo.\\n\\nMaecenas hendrerit tempor mauris vel consectetur. Proin lectus tellus, luctus sed commodo vitae, volutpat id urna. Fusce ultrices felis nisl, at lobortis elit dignissim nec. Aliquam pretium venenatis urna, et blandit urna porta ut. Curabitur quis neque vel mi lacinia varius. Curabitur sed pulvinar quam. Quisque pharetra sem nec metus vestibulum accumsan. Maecenas laoreet dictum augue, a mollis purus faucibus et. In hac habitasse platea dictumst. In non accumsan mi. Cras eget luctus ante. Duis vehicula nibh et nunc vehicula, quis viverra ipsum fringilla. Curabitur interdum odio nulla, id dictum ipsum laoreet eu.\\n\\nSed felis odio, elementum eget elit a, tempus interdum turpis. Aenean nisl velit, volutpat et interdum ac, blandit tempus neque. Aenean ultricies erat at ex efficitur, in consequat odio lobortis. Fusce posuere quam eget enim lacinia, at ultricies orci mattis. Nullam lorem ante, maximus bibendum odio eu, tincidunt sagittis justo. Nulla facilisi. Sed orci eros, sollicitudin at imperdiet ut, interdum ac diam. Maecenas fringilla mollis dapibus. Nullam nec velit ac libero pharetra suscipit ac quis nisl. Proin vulputate libero mattis, pretium ex sit amet, tristique odio. Phasellus ultrices lorem in sodales ullamcorper. Phasellus gravida euismod dolor, vitae fringilla neque tempor bibendum. Fusce tempor scelerisque purus vel vehicula. Suspendisse vitae ligula neque. Mauris auctor sagittis dolor ac tincidunt.",
+      "createdAt": "1656170873413",
+      "updatedAt": "1656170873413"
+    },
+    {
+      "Title": "Second Post",
+      "Slug": "second-post",
+      "Description": "Example post content type with basic fields...",
+      "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus, elit non finibus vehicula, purus odio mattis nulla, vitae rhoncus augue tellus vel est. Aliquam cursus purus in arcu malesuada, nec vestibulum arcu accumsan. Nullam enim tellus, pulvinar eu nunc sit amet, imperdiet tempor nisl. Mauris pellentesque purus ut lacus rhoncus condimentum. Nulla facilisi. In hac habitasse platea dictumst. Phasellus commodo libero augue, id eleifend urna maximus sit amet. Phasellus eget tincidunt odio, a cursus ligula. In sit amet hendrerit arcu. Suspendisse eget diam cursus, fermentum nisi quis, iaculis lorem. Fusce volutpat est nulla, quis porttitor sapien dictum nec. Phasellus quis velit vel risus sodales pretium. Morbi at interdum felis. Aenean mi enim, aliquet a vulputate eget, feugiat eget nisl.\\n\\nAliquam placerat quam a felis tristique, quis facilisis risus tristique. Nullam in porta lorem. Aliquam facilisis ultricies molestie. Donec nunc tortor, pulvinar sed nibh quis, placerat fringilla nisl. Vestibulum vehicula orci vitae nisl dictum efficitur. Integer eget ipsum mollis, vestibulum felis sed, varius justo. Sed rhoncus mi non lorem condimentum luctus.\\n\\nDonec iaculis quam quis finibus iaculis. Suspendisse cursus volutpat quam a elementum. Vivamus ut justo a nisl faucibus viverra. Etiam lacus arcu, fringilla vitae fermentum vel, tempus eget nisi. Morbi in commodo quam. Suspendisse in diam sit amet libero suscipit molestie. Maecenas venenatis dignissim dui vel blandit. In sit amet nulla scelerisque, viverra nulla sed, convallis felis. Aenean tristique libero in pellentesque iaculis. Pellentesque ut gravida nisl. Aliquam sit amet ligula elit. Curabitur sit amet quam eu massa eleifend tincidunt. Nulla suscipit ligula nec vulputate cursus. Praesent neque metus, consequat ac suscipit at, sagittis sit amet orci.",
+      "createdAt": "1656069830871",
+      "updatedAt": "1656170889300"
+    },
+    {
+      "Title": "Third Post",
+      "Slug": "third-post",
+      "Description": "Example post content type with basic fields...",
+      "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec magna sit amet sem tincidunt pellentesque et nec sem. Fusce vitae ultricies ex. Donec commodo turpis dui, at iaculis nibh pulvinar in. Nullam sed sapien eget diam tincidunt fermentum. Mauris ut vehicula enim, in laoreet orci. Maecenas lobortis tortor justo, ut aliquet ligula condimentum eu. Donec et aliquet elit. Nunc leo erat, ullamcorper quis rutrum vel, mattis in ante. Curabitur vestibulum sollicitudin nulla et maximus. Morbi et nisi mattis, pretium odio vitae, viverra neque. Donec dapibus pulvinar est et varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur velit ante, dapibus non finibus sit amet, porta ut turpis. Phasellus dapibus, nibh a tempor efficitur, risus tortor euismod ante, vel fermentum metus tortor in leo. Vestibulum ultricies erat ut molestie consectetur. Vivamus accumsan tempor sagittis.\n\nNullam vitae commodo enim, non malesuada neque. Quisque laoreet condimentum sem, non hendrerit purus tincidunt sed. Cras convallis tortor laoreet est condimentum commodo. Phasellus tempor venenatis nisl a maximus. Cras sagittis consequat odio non egestas. Cras et diam quis ligula feugiat finibus quis non urna. Donec ornare massa leo, quis condimentum quam aliquam in. Nulla auctor urna et arcu dictum aliquam. Sed vitae ligula enim. Curabitur vitae faucibus ex, et lacinia purus. Curabitur feugiat commodo magna, in luctus nunc eleifend id. Donec sit amet orci ut tellus ornare congue. Ut lacinia nisi id leo sollicitudin, a pretium elit commodo. Mauris placerat enim vel ipsum lacinia placerat. Aliquam vitae ante aliquam, malesuada magna vel, consectetur dolor. Vestibulum egestas eget enim sit amet pulvinar.\n\nProin iaculis bibendum dapibus. Vivamus ac dolor diam. Ut vulputate lacus eget sem viverra, et semper massa aliquet. Nulla congue lectus quis tellus pharetra, eget sodales tellus sagittis. Etiam libero nunc, pulvinar id lorem non, hendrerit imperdiet leo. Etiam nec turpis urna. Pellentesque in diam et augue semper dictum.",
+      "createdAt": "1656069898707",
+      "updatedAt": "1656170909136"
+    }
+  ],
+  "comments": [
+    {
+      "content": "Example Comment 1",
+      "blocked": false,
+      "blockedThread": false,
+      "blockReason": null,
+      "authorId": "maciekwitkowski322_gmail.com",
+      "authorName": "Maciej Witkowski",
+      "authorEmail": "maciekwitkowski322@gmail.com",
+      "authorAvatar": null,
+      "removed": null,
+      "approvalStatus": null,
+      "related": "api::post.post:1",
+      "createdAt": "2022-06-25T19:09:38.963Z",
+      "updatedAt": "2022-06-25T19:09:38.963Z"
+    },
+    {
+      "content": "Example Comment 2",
+      "blocked": false,
+      "blockedThread": false,
+      "blockReason": null,
+      "authorId": "maciekwitkowski322_gmail.com",
+      "authorName": "Maciej Witkowski",
+      "authorEmail": "maciekwitkowski322@gmail.com",
+      "authorAvatar": null,
+      "removed": null,
+      "approvalStatus": null,
+      "related": "api::post.post:1",
+      "createdAt": "2022-06-26T13:57:39.343Z",
+      "updatedAt": "2022-06-26T13:57:39.343Z"
+    },
+    {
+      "content": "Example Comment 3",
+      "blocked": false,
+      "blockedThread": false,
+      "blockReason": null,
+      "authorId": "maciekwitkowski322_gmail.com",
+      "authorName": "Maciej Witkowski",
+      "authorEmail": "maciekwitkowski322@gmail.com",
+      "authorAvatar": null,
+      "removed": null,
+      "approvalStatus": null,
+      "related": "api::post.post:1",
+      "createdAt": "2022-06-26T14:01:56.205Z",
+      "updatedAt": "2022-06-26T14:01:56.205Z"
+    }
+  ]
+}
