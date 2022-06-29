@@ -1,0 +1,15 @@
+.navbar-nav > .nav-link:hover > .dropdown-menu{
+  display: block;
+}
+
+.dropdown-menu > .nav-link:hover > .dropdown-menu{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(0px + 100%);
+  z-index: 1;
+}
+
+.nav-link {
+  position: relative;
+}
