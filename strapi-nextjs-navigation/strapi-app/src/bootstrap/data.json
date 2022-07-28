@@ -1,0 +1,165 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "title": "Home Page",
+      "content": "# Welcome to `strapi-plugin-navigation` example\n![logo](https://raw.githubusercontent.com/VirtusLab-Open-Source/strapi-plugin-navigation/master/public/assets/logo.png)\n\nIn this example you can find \"out\": \n\n- How to set up strapi project with navigation and internalisation plugins installed\n- How to configure navigation plugin to work with your content types\n- How to set up next.js project and consume strapi api\n- How to build dynamic navigation with strapi-plugin-navigation plugin",
+      "createdAt": "2022-06-06T10:10:35.935Z",
+      "updatedAt": "2022-06-14T11:57:32.421Z",
+      "publishedAt": "2022-06-06T10:12:21.706Z",
+      "name": "Home",
+      "locale": "en"
+    },
+    {
+      "id": 2,
+      "title": "About Navigation Plugin",
+      "content": "# Strapi v4 - Navigation plugin\nCreate consumable navigation with a simple and straightforward visual builder.\n\nStrapi Navigation Plugin provides a website navigation / menu builder feature for [Strapi Headless CMS](https://github.com/strapi/strapi) admin panel. Navigation has the possibility to control the audience and can be consumed by the website with different output structure renderers:\n\n- Flat\n- Tree (nested)\n- RFR (ready for handling by Redux First Router)\n\n## ✨ Features\n\n- **Navigation Public API:** Simple and ready for use API endpoint for consuming the navigation structure you've created\n- **Visual builder:** Elegant and easy to use visual builder\n- **Any Content Type relation:** Navigation can by linked to any of your Content Types by default. Simply, you're controlling it and also limiting available content types by configuration props\n- **Different types of navigation items:** Create navigation with items linked to internal types, to external links or wrapper elements to keep structure clean \n- **Multiple navigations:** Create as many Navigation containers as you want, setup them and use in the consumer application\n- **Light / Dark mode compatible:** By design we're supporting Strapi ☀️ Light / 🌙 Dark modes \n- **Customizable:** Possibility to customize the options \"like\": available Content Types, Maximum level for \"attach to menu\", Additional fields (audience)\n- **Audit log:** integration with Strapi Molecules Audit Log plugin that provides changes track record",
+      "createdAt": "2022-06-06T10:16:13.910Z",
+      "updatedAt": "2022-06-06T10:28:45.073Z",
+      "publishedAt": "2022-06-06T10:19:10.053Z",
+      "name": "About",
+      "locale": "en"
+    },
+    {
+      "id": 3,
+      "title": "Find out more... ",
+      "content": "# Find out more about our team\n- [Virtuslab](https://virtuslab.com/)\n- [Navigation Plugin](https://github.com/VirtusLab-Open-Source/strapi-plugin-navigation)\n- [Comments Plugin](https://github.com/VirtusLab-Open-Source/strapi-plugin-comments)\n- [Typescript utility for Strapi](https://github.com/VirtusLab-Open-Source/strapi-typed)",
+      "createdAt": "2022-06-06T10:19:05.792Z",
+      "updatedAt": "2022-06-06T10:30:11.728Z",
+      "publishedAt": "2022-06-06T10:19:06.341Z",
+      "name": "More",
+      "locale": "en"
+    },
+    {
+      "id": 7,
+      "title": "Contact Page",
+      "content": "# Hejka to jest przykładowa strona ",
+      "createdAt": "2022-06-08T07:58:16.352Z",
+      "updatedAt": "2022-06-08T07:58:16.352Z",
+      "publishedAt": null,
+      "name": "Contact",
+      "locale": "en"
+    }
+  ],
+  "navigations": [
+    {
+      "name": "Footer Navigation",
+      "slug": "navigation-footer",
+      "visible": true,
+      "createdAt": "2022-06-06T12:11:44.090Z",
+      "updatedAt": "2022-06-28T11:27:01.673Z"
+    }
+  ],
+  "navigationItems": [
+    {
+      "title": "Home Page",
+      "type": "INTERNAL",
+      "path": "home",
+      "externalPath": null,
+      "uiRouterKey": "home-page",
+      "menuAttached": true,
+      "order": 1,
+      "collapsed": false,
+      "createdAt": "2022-06-06T12:10:31.402Z",
+      "updatedAt": "2022-06-15T13:37:48.038Z",
+      "master": "1",
+      "related": "1"
+    },
+    {
+      "title": "About Page",
+      "type": "INTERNAL",
+      "path": "about",
+      "externalPath": null,
+      "uiRouterKey": "about-page",
+      "menuAttached": true,
+      "order": 2,
+      "collapsed": false,
+      "createdAt": "2022-06-06T12:10:31.402Z",
+      "updatedAt": "2022-06-15T13:37:48.038Z",
+      "master": "1",
+      "related": "2"
+    },
+    {
+      "title": "More Page",
+      "type": "INTERNAL",
+      "path": "more",
+      "externalPath": null,
+      "uiRouterKey": "more-page",
+      "menuAttached": true,
+      "order": 3,
+      "collapsed": false,
+      "createdAt": "2022-06-06T12:10:31.404Z",
+      "updatedAt": "2022-06-15T13:37:48.039Z",
+      "master": "1",
+      "related": "3"
+    },
+    {
+      "title": "Strapi Docs",
+      "type": "EXTERNAL",
+      "path": null,
+      "externalPath": "https://docs.strapi.io/",
+      "uiRouterKey": "strapi-docs",
+      "menuAttached": false,
+      "order": 1,
+      "collapsed": false,
+      "createdAt": "2022-06-06T12:18:11.131Z",
+      "updatedAt": "2022-06-06T12:18:11.131Z",
+      "master": "2"
+    },
+    {
+      "title": "Navigation Plugin Docs",
+      "type": "EXTERNAL",
+      "path": null,
+      "externalPath": "https://github.com/VirtusLab-Open-Source/strapi-plugin-navigation/",
+      "uiRouterKey": "navigation-plugin-docs",
+      "menuAttached": false,
+      "order": 2,
+      "collapsed": false,
+      "createdAt": "2022-06-06T12:18:11.131Z",
+      "updatedAt": "2022-06-06T12:18:11.131Z",
+      "master": "2"
+    },
+    {
+      "title": "Internationalization Plugin Docs",
+      "type": "EXTERNAL",
+      "path": null,
+      "externalPath": "https://docs.strapi.io/developer-docs/latest/plugins/i18n.html",
+      "uiRouterKey": "internationalization-plugin-docs",
+      "menuAttached": false,
+      "order": 3,
+      "collapsed": false,
+      "createdAt": "2022-06-06T12:18:11.131Z",
+      "updatedAt": "2022-06-06T12:18:11.131Z",
+      "master": "2"
+    }
+  ],
+  "navigationItemsRelations": [
+    {
+      "related_id": "1",
+      "related_type": "api::page.page",
+      "field": "navigation",
+      "order": 1,
+      "master": "1",
+      "createdAt": "2022-06-06T12:10:31.395Z",
+      "updatedAt": "2022-06-06T12:10:31.395Z"
+    },
+    {
+      "related_id": "2",
+      "related_type": "api::page.page",
+      "field": "navigation",
+      "order": 1,
+      "master": "1",
+      "createdAt": "2022-06-06T12:10:31.396Z",
+      "updatedAt": "2022-06-06T12:10:31.396Z"
+    },
+    {
+      "related_id": "3",
+      "related_type": "api::page.page",
+      "field": "navigation",
+      "order": 1,
+      "master": "1",
+      "createdAt": "2022-06-06T12:10:31.396Z",
+      "updatedAt": "2022-06-06T12:10:31.396Z"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "strapi-plugin-comments-example",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Example of strapi-plugin-comments usage",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/strapi": "4.1.12",
+    "better-sqlite3": "7.4.6",
+    "strapi-plugin-navigation": "2.1.0"
+  },
+  "author": {
+    "name": "VirtusLab",
+    "email": "strapi@virtuslab.com",
+    "url": "https://virtuslab.com"
+  },
+  "maintainers": [
+    {
+      "name": "VirtusLab // Maciej Witkowski",
+      "email": "mwitkowski@virtuslab.com",
+      "url": "https://virtuslab.com"
+    }
+  ],
+  "strapi": {
+    "uuid": "94e27b44-cb95-4487-bf0c-973fdcc69f4d"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
