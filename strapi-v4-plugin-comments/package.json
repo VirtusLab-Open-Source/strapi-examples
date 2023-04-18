@@ -13,7 +13,7 @@
   "dependencies": {
     "@strapi/plugin-graphql": "^4.1.8",
     "@strapi/plugin-i18n": "^4.1.8",
-    "@strapi/plugin-users-permissions": "^4.1.8",
+    "@strapi/plugin-users-permissions": "^4.6.0",
     "@strapi/strapi": "^4.1.8",
     "strapi-plugin-comments": "^2.1.0",
     "sqlite3": "^5.0.2"
