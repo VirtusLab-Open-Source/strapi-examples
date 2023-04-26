@@ -13,7 +13,7 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.1.12",
     "@strapi/plugin-users-permissions": "4.1.12",
-    "@strapi/strapi": "4.1.12",
+    "@strapi/strapi": "4.8.0",
     "better-sqlite3": "7.4.6",
     "strapi-plugin-navigation": "2.1.0"
   },
