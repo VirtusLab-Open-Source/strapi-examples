@@ -1,0 +1,33 @@
+:root {
+  --foreground-rgb: 229, 229, 229;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+}
+
+a {
+  color: rgb(var(--foreground-rgb));
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-link {
+  color: rgb(180, 180, 180);
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: rgb(var(--foreground-rgb));
+}
