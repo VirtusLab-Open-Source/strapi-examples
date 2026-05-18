@@ -2,6 +2,7 @@ import type {
   NavigationItemTree,
   StrapiNavigationPage,
 } from "../types/navigation";
+import { strapiOriginUrl } from "./utils";
 
 export async function fetchPageByPath(
   pathname: string,
@@ -14,7 +15,7 @@ export async function fetchPageByPath(
         ? pathname
         : `/${pathname}`;
 
-  const url = new URL(`http://localhost:1337/api/navigation/render/navigation`);
+  const url = new URL(`${strapiOriginUrl()}/api/navigation/render/navigation`);
   url.searchParams.set("path", normalized);
 
   const res = await fetch(url.toString(), { signal });

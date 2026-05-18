@@ -3,12 +3,7 @@ import type {
   CommentAuthor,
   StrapiComment,
 } from "../types/comments";
-
-function strapiOriginUrl() {
-  return import.meta.env.STRAPI_URL ?? "http://localhost:1337";
-}
-
-const ARTICLE_CONTENT_RELATION = "api::article.article";
+import { strapiOriginUrl, ARTICLE_CONTENT_RELATION } from "./utils";
 
 export const REPORT_PRESETS: Array<AbuseReportPayload & { label: string }> = [
   {

@@ -1,6 +1,8 @@
-export async function fetchArticles() {
-  const url = new URL("http://localhost:1337/api/articles?populate=*");
-  const res = await fetch(url.toString());
+import { ARTICLE_CONTENT_RELATION, strapiOriginUrl } from "./utils";
+
+export async function fetchArticles(signal: AbortSignal) {
+  const url = new URL(`${strapiOriginUrl()}/api/articles?populate=*`);
+  const res = await fetch(url.toString(), { signal });
   if (!res.ok) {
     throw new Error(
       `Failed to fetch articles: ${res.status} ${res.statusText}`,
@@ -10,9 +12,9 @@ export async function fetchArticles() {
   return data.data;
 }
 
-export async function fetchEmojis() {
-  const url = new URL(`http://localhost:1337/api/reactions/kinds`);
-  const res = await fetch(url.toString());
+export async function fetchEmojis(signal: AbortSignal) {
+  const url = new URL(`${strapiOriginUrl()}/api/reactions/kinds`);
+  const res = await fetch(url.toString(), { signal });
   if (!res.ok) {
     throw new Error(`Failed to fetch emoji: ${res.status} ${res.statusText}`);
   }
@@ -22,7 +24,7 @@ export async function fetchEmojis() {
 
 export async function setReaction(reactionType: string, articleId: string) {
   const url = new URL(
-    `http://localhost:1337/api/reactions/set/${reactionType}/collection/api::article.article/${articleId}`,
+    `${strapiOriginUrl()}/api/reactions/set/${reactionType}/collection/${ARTICLE_CONTENT_RELATION}/${articleId}`,
   );
   const res = await fetch(url.toString(), {
     method: "POST",
@@ -42,11 +44,12 @@ export async function setReaction(reactionType: string, articleId: string) {
 export async function fetchArticleReactionsCount(
   reactionType: string,
   articleId: string,
+  signal: AbortSignal,
 ) {
   const url = new URL(
-    `http://localhost:1337/api/reactions/list/${reactionType}/collection/api::article.article/${articleId}`,
+    `${strapiOriginUrl()}/api/reactions/list/${reactionType}/collection/${ARTICLE_CONTENT_RELATION}/${articleId}`,
   );
-  const res = await fetch(url.toString());
+  const res = await fetch(url.toString(), { signal });
   if (!res.ok) {
     throw new Error(
       `Failed to fetch reactions: ${res.status} ${res.statusText}`,

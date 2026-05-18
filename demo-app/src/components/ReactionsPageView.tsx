@@ -9,13 +9,21 @@ function ReactionsPageView() {
   const [emojis, setEmojis] = useState<Reaction[]>([]);
 
   useEffect(() => {
-    fetchEmojis()
+    const controller = new AbortController();
+    const signal = controller.signal;
+
+    fetchEmojis(signal)
       .then((data) => {
         setEmojis(data);
       })
       .catch((error: unknown) => {
+        if (signal.aborted) return;
         console.error(error);
       });
+
+    return () => {
+      controller.abort();
+    };
   }, []);
 
   if (error) {
