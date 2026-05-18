@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
-import { fetchArticles } from "../lib/strapi-reactions";
 import {
   fetchCommentsFlat,
   postComment,
   reportCommentAbuse,
 } from "../lib/strapi-comments";
+import { useArticles } from "../hooks/useArticles";
 import type { Article } from "../types/articles";
 import type {
   AbuseReportPayload,
@@ -15,23 +15,20 @@ import type {
 import { REPORT_PRESETS } from "../lib/strapi-comments";
 
 function CommentsPageView() {
-  const [articles, setArticles] = useState<Article[]>([]);
-  const [listError, setListError] = useState<string | null>(null);
+  const { articles, isLoading, error } = useArticles();
 
-  useEffect(() => {
-    fetchArticles()
-      .then((data) => setArticles(data))
-      .catch((err: unknown) => {
-        setListError(
-          err instanceof Error ? err.message : "Failed to load articles.",
-        );
-      });
-  }, []);
-
-  if (listError) {
+  if (error) {
     return (
       <div>
-        <p role="alert">{listError}</p>
+        <p role="alert">{error}</p>
+      </div>
+    );
+  }
+
+  if (isLoading) {
+    return (
+      <div>
+        <p>Loading articles…</p>
       </div>
     );
   }
@@ -39,7 +36,7 @@ function CommentsPageView() {
   if (articles.length === 0) {
     return (
       <div>
-        <p>Loading articles…</p>
+        <p>No articles in Strapi.</p>
       </div>
     );
   }
